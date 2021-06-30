@@ -37,4 +37,4 @@ Hides the lines in the table by adding a button to reveal them
 ```
   
 ## Example jsFiddle
-[https://jsfiddle.net/ehoop1337/7b3qdpuv/](https://jsfiddle.net/ehoop1337/7b3qdpuv/)
+[https://jsfiddle.net/ehoop1337/jgLfe5v3/](https://jsfiddle.net/ehoop1337/jgLfe5v3/)
