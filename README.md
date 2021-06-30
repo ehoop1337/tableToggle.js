@@ -35,3 +35,6 @@ Hides the lines in the table by adding a button to reveal them
     tableToggle("#table", 1, "Open");
   </script>
 ```
+  
+## Example jsFiddle
+[https://jsfiddle.net/ehoop1337/7b3qdpuv/](https://jsfiddle.net/ehoop1337/7b3qdpuv/)
