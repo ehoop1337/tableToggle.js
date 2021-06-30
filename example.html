@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>tableToggle.js - ehoop1337</title>
+        <style>body{display:flex;flex-direction:column;max-width:500px;margin:0 auto;font-size:16px;padding-top:3rem}table{margin-bottom:2rem}th,td{padding:0.5rem}hr{width:100%}</style>
+    </head>
+    <body>
+        <h1>
+            tableToggle.js
+        </h1>
+        <p>
+            <a href="https://github.com/ehoop1337/tableToggle.js" target="_blank">https://github.com/ehoop1337/tableToggle.js</a> by Ruslan Sayfutdinov
+        </p>
+        <hr />
+        <h2>
+            Example 1: Default, the number of active elements is zero
+        </h2>
+        <p>
+            tableToggle("#t1")
+        </p>
+        <table id="t1" border="1">
+            <thead>
+                <tr>
+                    <th>Example 1</th>
+                    <th>Example 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Example 3</td>
+                    <td>Example 4</td>
+                </tr>
+                <tr>
+                    <td>Example 5</td>
+                    <td>Example 6</td>
+                </tr>
+                <tr>
+                    <td>Example 7</td>
+                    <td>Example 8</td>
+                </tr>
+                <tr>
+                    <td>Example 9</td>
+                    <td>Example 10</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <h2>
+            Example 2: A certain number of active elements
+        </h2>
+        <p>
+            tableToggle("#t2", 3)
+        </p>
+        <table id="t2" border="1">
+            <thead>
+                <tr>
+                    <th>Example 1</th>
+                    <th>Example 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Example 1</td>
+                    <td>Example 2</td>
+                </tr>
+                <tr>
+                    <td>Example 3</td>
+                    <td>Example 4</td>
+                </tr>
+                <tr>
+                    <td>Example 5</td>
+                    <td>Example 6</td>
+                </tr>
+                <tr>
+                    <td>Example 7</td>
+                    <td>Example 8</td>
+                </tr>
+                <tr>
+                    <td>Example 9</td>
+                    <td>Example 10</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <h2>
+            Example 3: Custom text in the button
+        </h2>
+        <p>
+            tableToggle("#t3", 2, "Custom text in the «even more» button");
+        </p>
+        <table id="t3" border="1">
+            <thead>
+                <tr>
+                    <th>Example 1</th>
+                    <th>Example 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Example 3</td>
+                    <td>Example 4</td>
+                </tr>
+                <tr>
+                    <td>Example 5</td>
+                    <td>Example 6</td>
+                </tr>
+                <tr>
+                    <td>Example 7</td>
+                    <td>Example 8</td>
+                </tr>
+                <tr>
+                    <td>Example 9</td>
+                    <td>Example 10</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <h2>
+            Example 4: Without using "thead"
+
+        </h2>
+        <p>
+            tableToggle("#t4", 3);
+        </p>
+        <table id="t4" border="1">
+            <tbody>
+                <tr>
+                    <td>Example 1</td>
+                    <td>Example 2</td>
+                </tr>
+                <tr>
+                    <td>Example 3</td>
+                    <td>Example 4</td>
+                </tr>
+                <tr>
+                    <td>Example 5</td>
+                    <td>Example 6</td>
+                </tr>
+                <tr>
+                    <td>Example 7</td>
+                    <td>Example 8</td>
+                </tr>
+                <tr>
+                    <td>Example 9</td>
+                    <td>Example 10</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <h2>
+            Example 5: Without using "tbody"
+        </h2>
+        <p>
+            tableToggle("#t5", 2);
+        </p>
+        <table id="t5" border="1">
+            <thead>
+                <tr>
+                    <th>Example 1</th>
+                    <th>Example 2</th>
+                </tr>
+                <tr>
+                    <th>Example 3</th>
+                    <th>Example 4</th>
+                </tr>
+                <tr>
+                    <th>Example 5</th>
+                    <th>Example 6</th>
+                </tr>
+                <tr>
+                    <th>Example 7</th>
+                    <th>Example 8</th>
+                </tr>
+                <tr>
+                    <th>Example 9</th>
+                    <th>Example 10</th>
+                </tr>
+            </thead>
+        </table>
+        <hr />
+        <h2>
+            Example 6: Without using "thody" and "tbody"
+        </h2>
+        <p>
+            tableToggle("#t6", 2);
+        </p>
+        <table id="t6" border="1">
+            <tr>
+                <td>Example 1</td>
+                <td>Example 2</td>
+            </tr>
+            <tr>
+                <td>Example 3</td>
+                <td>Example 4</td>
+            </tr>
+            <tr>
+                <td>Example 5</td>
+                <td>Example 6</td>
+            </tr>
+            <tr>
+                <td>Example 7</td>
+                <td>Example 8</td>
+            </tr>
+            <tr>
+                <td>Example 9</td>
+                <td>Example 10</td>
+            </tr>
+        </table>
+        <hr />
+        <h2>
+            Example 7: Works when using "rolspan"
+        </h2>
+        <p>
+            tableToggle("#t7", 2, "Open")
+        </p>
+        <table id="t7" border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Example 1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Example 3</td>
+                    <td>Example 4</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Example 3</td>
+                </tr>
+                <tr>
+                    <td>Example 4</td>
+                    <td>Example 5</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Example 6</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Scripts -->
+        <script src="tableToggle.min.js"></script>
+        <script>
+            tableToggle("#t1");
+            tableToggle("#t2", 3);
+            tableToggle("#t3", 2, "Custom text in the «even more» button");
+            tableToggle("#t4", 3);
+            tableToggle("#t5", 2);
+            tableToggle("#t6", 2);
+            tableToggle("#t7", 2, "Open");
+        </script>
+    </body>
+</html>
